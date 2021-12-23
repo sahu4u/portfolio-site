@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charu Sahu Portfolio</title>
+    <link rel = "icon" href = "./assets/icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <!-- HOME SECTION     -->
+
+    <div class="home-container">
+        <div class="home-container-header">
+
+            <div class="home-header-left">
+                <h1 class="header-heading">
+                    Hi!! <span class="third">Charu</span> here 🙂
+                </h1>
+                <p class="header-subheading">
+                    I am a newbie programmer, passionate about learning and experimenting with new tech
+                    <br/>
+                    scroll down and find out a lil'l about me 😁
+                </p>
+            </div>
+            <div class="home-header-right">
+                <img src="./assets/home_page.svg" alt="" />
+            </div>
+        
+        </div>
+    </div>
+
+
+    <!-- ABOUT-ME SECTION -->
+
+    <div class="aboutUs-container">
+        
+        <div class="about-us-header-container">
+            <div class="about-us-header-imgSection">
+                <img src="./assets/about_me.svg" alt="about-me" class="about-us-header-img"/>
+            </div>
+            <div class="about-us-header">
+                <div class="about-us-header-heading">About Me 😊</div>
+                <div class="about-us-header-info">
+                    Hi, My name is Charu Sahu, I'm a first year undergrad
+                    in Electrical Engineering
+                    at IIT Roorkee.
+                    Currently I've developed interest in Web development and Competitive programming,
+                    hence looking forward enhancing my skills in these fields and explore new ones.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SKILLS SECTION-->
+
+
+
+    <!-- HOBBIES SECTION -->
+    
+    <div class="hobby-container">
+            
+        <div class="hobby-container-header">
+            <h1 class="hobby-container-heading">
+                <span class="third">My</span> 
+                <span class="secondary"> </span>
+                <span class="sixth"> Hobbies </span>
+            </h1>
+
+            <p class="hobby-container-info">
+                This is my hobby,growing stores,adding stores.
+                <br/>
+                It's
+            </p>
+            <div class="hobby-img-section">
+                <img src="./assets/hobby.svg" alt="" class="hobby-img"/>
+            </div>
+        </div>
+        <div class="hobby-container-main">
+            <div class="hobby-card bg1">
+                <h1>Chess</h1>
+                <p>Games</p>
+            </div>
+            <div class="hobby-card bg2">
+                <h1>Book reading</h1>
+                <p>Self-growth books</p>
+            </div>
+            <div class="hobby-card bg3">
+                <h1>Competitive Programming</h1>
+                <p>Coding</p>
+            </div>
+            <div class="hobby-card bg2">
+                <h1>Travelling</h1>
+                <p>adventure</p>
+            </div>
+            <div class="hobby-card bg1">
+                <h1>Music</h1>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- // CONTACT SECTION -->
+
+    <div class="contact-container">
+
+        <div class="contact-heading">
+
+            <div class="contact-info">
+                
+                <h1 class="contact-info-heading"> You can also connect with me here 🙂</h1>
+                <div class="contact-soc-icons">
+
+                    <a href="mailto:charusahu96@gmail.com">
+                        <i class="fa fa-envelope-o contact-icon"></i>
+                    </a>
+                       
+                    <a href="https://instagram.com/" rel="noreferrer" target="_blank">
+                        <i class="fa fa-instagram contact-icon"></i>
+                    </a>
+
+                    <a href="https://facebook.com" rel="noreferrer" target="_blank">
+                        <i class="fa fa-facebook contact-icon"></i>
+                    </a>
+
+                    <a href="https://linkedin.com" rel="noreferrer" target="_blank">
+                        <i class="fa fa-linkedin contact-icon" > </i>
+                    </a>
+
+                    <a href="https://twitter.com" rel="noreferrer" target="_blank">
+                        <i class="fa fa-twitter contact-icon" > </i>
+                    </a>
+
+                    <a href="https://github.com" rel="noreferrer" target="_blank">
+                        <i class="fa fa-github contact-icon" > </i>
+                    </a>
+                
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <h1 class="contact-text">
+                hello!! Get In Touch
+            </h1>
+            <div class="contact-form-item">
+                <input 
+                    type="email"
+                    placeholder="Your Email Address"
+                    id="email"
+                    name="email"
+                    class="contact-input"
+                />
+            </div>
+
+            <div class="contact-form-item">
+                <input 
+                    type="tel"
+                    placeholder="Contact Number"
+                    id="phone"
+                    name="phone"
+                    class="contact-input" 
+                />
+            </div>
+            
+            <div class="contact-form-item">
+                <textarea 
+                    placeholder="Your Message here"
+                    id="contact-message"
+                    name="message"
+                    class="contact-input" 
+                    rows="8"
+                ></textarea>
+            </div>
+
+            <div class="contact-form-item">
+                <button 
+                onClick={this.handleCancelBtn}
+                class="contact-btn">
+                    Cancel
+                </button>
+                <button 
+                class="contact-btn">
+                    Send
+                </button>
+            </div>
+        </div>
+    
+    </div>
+
+</body>
+</html>
